@@ -7,9 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap" rel="stylesheet">
   <title>Animais Fantásticos</title>
-
+  <script>
+    document.documentElement.className += ' js';
+  </script>
 </head>
 
 <body>
@@ -23,7 +25,7 @@
   </nav>
   <section class="grid-section animais" id="animais">
     <h1 class="titulo">Animais Fantásticos</h1>
-    <ul class = "animais-lista">
+    <ul class = "animais-lista js-tabmenu">
       <li>
         <img src="img/imagem1.jpg">
       </li>
@@ -43,8 +45,7 @@
         <img src="img/imagem6.jpg">
       </li>
     </ul>
-    <div class="animais-descricao">
-      <section>
+    <div class="animais-descricao js-tabcontent">
         <section>
           <h2>Raposa</h2>
           <p>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio,
@@ -61,67 +62,112 @@
 
         <section>
           <h2>Esquilo</h2>
-          <p>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio,
-            caracterizados
-            por um focinho comprido e uma cauda longa e peluda.</p>
-          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.
+          <p>Os esquilos pertencem a uma grande família de 
+            mamíferos roedores, de pequeno e médio porte, 
+            conhecida como Sciuridae. No Brasil, são também conhecidos como 
+            serelepe, caxinguelê, caxinxe, quatimirim, quatipuru, agutipuru ou acutipuru. Na Galiza 
+            e em algumas zonas de Portugal, também é conhecido por esquio. Os esquilos 
+            estão espalhados por quase todo o mundo, a maioria nas zonas de climas 
+            temperado ou tropical, mas também em algumas zonas de clima frio. Como todos os roedores, 
+            possui presas fortíssimas, com que roem facilmente sementes, principalmente bolotas.
           </p>
-          <p>De cerca de 40 espécies reconhecidas como raposas, somente 12 pertencem ao gênero Vulpes das "raposas
-            verdadeiras", do
-            qual a raposa vermelha é a mais comum.</p>
-          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.
+          <p>
+            As sementes são as principais fontes de alimentação, 
+            mas também consomem insetos e frutas. Quando coletam alimento, 
+            enterram algumas sementes que encontram, sendo que algumas chegam a 
+            germinar, como pinhões e coquinhos, 
+            acabando por plantar árvores como araucária e jerivá.           
           </p>
+          <p>
+            Constroem ninhos com folhas e galhos para abrigarem as suas crias 
+            da chuva e do vento, em ramos muito altos, em árvores como a cajarana. 
+            Durante a gestação, os pais preparam o ninho para receber os filhotes que 
+            variam de 3 a 10 por ninhada. Quando adulto, as maiores espécies da família 
+            chegam a medir de 53 a 73 cm de comprimento (com a cauda).
+          </p>
+          
         </section>
         <section>
           <h2>Urso</h2>
-          <p>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio,
-            caracterizados
-            por um focinho comprido e uma cauda longa e peluda.</p>
-          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.
+          <p>
+            Os Ursos (latim científico: Ursidae) constituem uma família de mamíferos plantígrados,
+            da ordem Carnivora, geralmente de grande porte, contendo os ursos e os pandas. 
+            Embora classificado como urso, e logo após, como procionídeo, junto com o panda-vermelho, 
+            o panda-gigante foi recolocado dentro da família dos ursídeos devido às novas pesquisas genéticas. 
+            Algumas características comuns dos ursos são pelagem espessa, rabo curto, o olfato desenvolvido 
+            e as garras não retráteis. Os 
+            ursídeos são geralmente animais omnívoros, mas se alimentam principalmente de carne.
           </p>
-          <p>De cerca de 40 espécies reconhecidas como raposas, somente 12 pertencem ao gênero Vulpes das "raposas
-            verdadeiras", do
-            qual a raposa vermelha é a mais comum.</p>
-          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.
+          <p>
+            As espécies mais antigas e primitivas desta família 
+            estão reunidas no gênero Ballusia, 
+            do Mioceno Inferior, que ainda retêm características similares aos Hemicyonidae. Do Ballusia 
+            descende o gênero Ursavus, 
+            fonte dos ursíneos, e talvez o Agriarctos, ancestral dos agrioteríneos.
+          </p>
+          <p>
+            Os ursos existem em todos os continentes, em exceção na África, embora algumas 
+            fontes afirmem terem avistado o Urso nandi, mas sem comprovarem a sua existência.
           </p>
         </section>
         <section>
           <h2>Lobo</h2>
-          <p>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio,
-            caracterizados
-            por um focinho comprido e uma cauda longa e peluda.</p>
-          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.
-          </p>
-          <p>De cerca de 40 espécies reconhecidas como raposas, somente 12 pertencem ao gênero Vulpes das "raposas
-            verdadeiras", do
-            qual a raposa vermelha é a mais comum.</p>
-          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.
+          <p>
+            O lobo (também chamado de lobo-cinzento; nome científico: Canis lupus) 
+            é uma espécie de mamífero canídeo do gênero Canis. É um sobrevivente da Era do Gelo, 
+            originário do Pleistoceno Superior, cerca de 300 mil anos atrás. É o maior membro 
+            remanescente selvagem da família canidae. O sequenciamento de DNA e estudos genéticos 
+            reafirmam que o lobo-cinzento é ancestral do cão doméstico (Canis lupus familiaris), 
+            contudo alguns aspectos desta afirmação têm sido questionados recentemente.
+            Uma série de outras subespécies do lobo-cinzento foram identificadas, embora o número 
+            real de subespécies ainda esteja em discussão. Os lobos-cinzentos são tipicamente predadores 
+            ápice nos ecossistemas que ocupam. Embora não sejam tão adaptáveis à presença humana como 
+            geralmente ocorre com as demais espécies de canídeos, os lobos se desenvolveram em 
+            diversos ambientes, como florestas temperadas, desertos, montanhas, tundras, taigas, 
+            campos e até mesmo em algumas áreas urbanas. O lobo-cinzento (Canis lupus), o 
+            lobo-vermelho (Canis rufus), o lobo-etíope (Canis simensis) e o lobo-dourado (Canis anthus) 
+            são as únicas quatro espécies classificadas como lobos. 
+            Os demais lobos correspondem a subespécies derivadas dessas quatro espécies.
           </p>
         </section>
         <section>
           <h2>Macaco</h2>
-          <p>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio,
-            caracterizados
-            por um focinho comprido e uma cauda longa e peluda.</p>
-          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.
+          <p>
+            Macaco é um termo de origem africana (provavelmente do banto makako)
+            utilizado como designação comum a todas as espécies de símios ou primatas antropoides. 
+            É aplicada restritivamente no Brasil aos cebídeos (ou macacos do Novo Mundo) em geral. 
+            No sentido estrito, 
+            "macaco" refere-se às espécies de primatas pertencentes ao género Macaca.
           </p>
-          <p>De cerca de 40 espécies reconhecidas como raposas, somente 12 pertencem ao gênero Vulpes das "raposas
-            verdadeiras", do
-            qual a raposa vermelha é a mais comum.</p>
-          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.
+          <p>
+            A designação mico se origina, segundo o Dicionário Aurélio,
+            do caraíba (karib) continental. É bastante usada no Brasil, 
+            onde costuma aplicar-se às espécies do gênero Cebus, 
+            no Sul, e às espécies de pequeno porte, ou saguis, no Norte.
+          </p>
+          <p>
+            O termo sagui se origina do tupi antigo sagûi e também designa 
+            os macacos calitriquídeos de pequeno porte.
+          </p>
+          <p>
+            Ainda segundo Cunha, o termo símio, que também designa os macacos 
+            (tendo sido registrado no português dos séculos XVI e XVII), 
+            vem do latim simius, de simus, "que tem o nariz chato".
           </p>
         </section>
         <section>
           <h2>Leão</h2>
-          <p>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio,
-            caracterizados
-            por um focinho comprido e uma cauda longa e peluda.</p>
-          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.
-          </p>
-          <p>De cerca de 40 espécies reconhecidas como raposas, somente 12 pertencem ao gênero Vulpes das "raposas
-            verdadeiras", do
-            qual a raposa vermelha é a mais comum.</p>
-          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.
+          <p>
+            O leão [feminino: leoa] (nome científico: Panthera leo) é uma 
+            espécie de mamífero carnívoro do gênero Panthera e da família Felidae. 
+            A espécie é atualmente encontrada na África subsaariana e na Ásia, com uma 
+            única população remanescente em perigo, no Parque Nacional da Floresta de Gir, 
+            Gujarat, Índia. Foi extinto na África do Norte e no Sudoeste Asiático em tempos 
+            históricos, e até o Pleistoceno Superior, há cerca de 10 000 anos, era o mais 
+            difundido grande mamífero terrestre depois dos humanos, sendo encontrado 
+            na maior parte da África, em muito da Eurásia, da Europa Ocidental à Índia,
+            e na América, do Yukon ao México. É uma dos quatro grandes felinos, com alguns machos excedendo 
+            250 quilogramas em peso, sendo o segundo maior felino recente depois do tigre.
           </p>
         </section> 
     </div>
@@ -130,13 +176,90 @@
     <h1 class = "titulo">FAQ</h1>
     <dl class = "faq-lista">
       <dt>Qual a idade dos animais?</dt>
-      <dd>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados por um focinho comprido e uma cauda longa e peluda.</dd>
+      <dd>
+        As raposas sendo os animais no topo da lista,
+        têm a sua idade variando entre 2 até 5 anos.
+        Já os esquilos vivem até 13 anos.
+        Também temos os ursos que têm diferentes espécies, 
+        como o urso-pardo que vive entre 20 até os 25 anos, 
+        já os ursos pandas vivem por volta de 20 anos e os 
+        ursos polares vivem por volta de 25 anos.
+      </dd>
       <dt>Eles são fantásticos?</dt>
-      <dd>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</dd>
+      <dd>
+        Sim pois cada animal contribui de uma
+        forma para o funcionamento do meio ambiente
+        em que vivem, certos animais, como o lobo e o urso,
+        controlam a população de herbívoros,
+        que pode crescer e acabar com a flora local.
+        Outros como o esquilo ajudam no plantio de espécies vegetais,
+        então podemos concluir que sem os animais, o nosso mundo
+        não seria fantástico.
+      </dd>
       <dt>Qual a diferença?</dt>
-      <dd>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados por um focinho comprido e uma cauda longa e peluda.</dd>
+      <dd>
+        Esses animais se diferem tanto nos seus hábitos alimentares,
+        quanto comportamento, espécie, tamanho, rotina e outros.
+        E cada um tem seu papel específico e fundamental no 
+        meio ambiente.
+      </dd>
       <dt>Como proteger?</dt>
-      <dd>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</dd>
+      <dd>
+        1) Preserve as árvores. Não realize podas ilegais e nunca desmate uma área. 
+        É importante também não colocar fogo em propriedades, pois 
+        isso pode atingir matas preservadas.
+        <br>
+        <br>
+        2) Cuide bem dos cursos de água. Nunca coloque lixo em rios, 
+        lagos e outros ambientes aquáticos e, principalmente, preserve 
+        a mata em volta desses locais. Essa mata protege contra erosão e assoreamento.
+        <br>
+        <br>
+        3) Não pesque em épocas de reprodução e obedeça às regras 
+        que indicam a quantidade de pescado permitida. Também 
+        é importante não realizar a caça ilegal.
+        <br>
+        <br>
+        4) Nunca compre animais silvestres sem registro. Ao comprar 
+        animais ilegais, você está construindo para o tráfico de animais, 
+        um problema mundial que afeta a biodiversidade de uma região, podendo 
+        até mesmo levar espécies à extinção.
+        <br>
+        <br>
+        5) Cuide bem do seu lixo. Nunca jogue lixo no chão, importando-se sempre 
+        com o destino adequado dele. Separar o lixo reciclável é importante para 
+        diminuir a quantidade de lixo nas grandes cidades.
+        <br>
+        <br>
+        6) Reutilize, reaproveite e recicle tudo que for possível. Caixas e plásticos, 
+        por exemplo, podem ser utilizados para acondicionar alguns objetos. Roupas que
+        você não utiliza mais podem ser doadas. Alguns produtos podem virar itens
+        de decoração. O importante é sempre ter em mente que quanto mais diminuímos a 
+        nossa produção de lixo, mais preservamos o meio ambiente.
+        <br>
+        <br>
+        7) Reduza o consumo de água. Para isso, basta criar maneiras de aproveitar melhor 
+        água, como reutilizar a água da máquina de lavar, armazenar a água da chuva, 
+        não lavar calçadas com água e diminuir o tempo de banho.
+        <br>
+        <br>
+        8) Reduza o consumo de energia elétrica. Evite o consumo exagerado, 
+        lembrando-se sempre de deixar aparelhos desligados quando não estiverem 
+        sendo usados e apagar as luzes que estão iluminando ambientes desnecessários.
+        <br>
+        <br>
+        9) Evite andar apenas de carro. Os carros poluem o meio ambiente, por isso, 
+        sempre que possível, opte por deixar o carro em casa. Você sempre pode optar 
+        por utilizar o transporte público de sua região, criar sistemas de caronas, 
+        andar de bicicleta ou ainda ir a pé, dependendo da distância a ser percorrida.
+        <br>
+        <br>
+        10) Compre apenas o necessário. A dica aqui é sempre se perguntar antes de 
+        uma compra: Eu realmente preciso? A produção exagerada de produtos 
+        ocasiona a exploração de nossos recursos de maneira descontrolada. 
+        Assim sendo, só consuma o necessário e só adquira produtos realmente 
+        importantes.
+      </dd>
     </dl>
   </section>
 
@@ -153,6 +276,7 @@
     </ul>
   </section>
 
+  <a href="http://"></a>
   <footer class="copy">
     <p>Todos os direitos reservados.</p>
   </footer>
